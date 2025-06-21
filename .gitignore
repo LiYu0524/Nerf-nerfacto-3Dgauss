@@ -7,3 +7,5 @@
 *.dae
 nerf-pytorch/data/*
 nerf-pytorch/logs/*
+nerf-pytorch/logs/tensorboard/colmap_test/
+*.tfevents.*
