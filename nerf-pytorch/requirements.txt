@@ -1,0 +1,58 @@
+absl-py==2.3.0
+certifi==2025.6.15
+charset-normalizer==3.4.2
+ConfigArgParse==1.7.1
+contourpy==1.3.0
+cycler==0.12.1
+filelock @ file:///croot/filelock_1744281381737/work
+fonttools==4.58.4
+fsspec==2025.5.1
+gmpy2 @ file:///croot/gmpy2_1738085463648/work
+grpcio==1.73.0
+idna==3.10
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
+importlib_metadata==8.7.0
+importlib_resources @ file:///croot/importlib_resources-suite_1720641103994/work
+Jinja2 @ file:///croot/jinja2_1741710844255/work
+kiwisolver==1.4.7
+lazy_loader==0.4
+lpips==0.1.4
+Markdown==3.8
+MarkupSafe==3.0.2
+matplotlib==3.9.2
+mkl-service==2.4.0
+mkl_fft @ file:///io/mkl313/mkl_fft_1730824109137/work
+mkl_random @ file:///io/mkl313/mkl_random_1730823916628/work
+mpmath @ file:///croot/mpmath_1690848262763/work
+networkx @ file:///croot/networkx_1717597493534/work
+numpy==1.23.5
+opencv-python==4.11.0.86
+packaging==25.0
+pillow==11.2.1
+protobuf==6.31.1
+pyparsing==3.2.3
+PyQt6==6.7.1
+PyQt6_sip @ file:///croot/pyqt-split_1744804475988/work/pyqt_sip
+python-dateutil==2.9.0.post0
+PyYAML @ file:///croot/pyyaml_1728657952215/work
+requests==2.32.4
+scikit-image==0.24.0
+scipy==1.13.1
+sip @ file:///croot/sip_1738856193618/work
+six==1.17.0
+sympy==1.13.1
+tensorboard==2.19.0
+tensorboard-data-server==0.7.2
+tifffile==2024.8.30
+tomli @ file:///opt/conda/conda-bld/tomli_1657175507142/work
+torch==2.5.1
+torchaudio==2.5.1
+torchvision==0.20.1
+tornado @ file:///croot/tornado_1748956929273/work
+tqdm==4.67.1
+triton==3.1.0
+typing_extensions @ file:///croot/typing_extensions_1734714854207/work
+urllib3==2.4.0
+Werkzeug==3.1.3
+zipp==3.23.0
