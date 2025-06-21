@@ -6,4 +6,4 @@
 *.npz
 *.dae
 nerf-pytorch/data/*
-nerf-pytorch/logs/colmap_test/*
+nerf-pytorch/logs/*
