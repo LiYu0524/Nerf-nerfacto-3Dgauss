@@ -4,3 +4,15 @@
 
 你可以在这里下载模型的数据：[cloud link](https://pan.baidu.com/s/17tCQ6Vk_we6_n6yAyr7v2g) 提取码: z7dh
 ## Nerf
+
+![nerf](assets/nerf.jpg)
+
+## **Nerfacto**
+
+![nerfacto](./assets/nerfacto.jpg)
+
+
+
+## 3D Gaussian Splatting
+
+![3d gauss](./assets/3dg.png)
