@@ -1,1 +1,1 @@
-tensorboard --logdir=./logs/tensorboard --bind_all
+tensorboard --logdir=./logs/tensorboard/colmap_test --bind_all
