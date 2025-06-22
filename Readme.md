@@ -11,7 +11,7 @@
 
 ![nerfacto](./assets/nerfacto.jpg)
 
-
+左图为ground truth 右图为nerfato渲染结果
 
 ## 3D Gaussian Splatting
 
