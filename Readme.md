@@ -53,7 +53,7 @@ colmap model_converter --input_path sparse/0 --output_path output --output_type 
 
 对于nerf-pytorch,我们采用了blender格式作为输入，因此采用了7:1:3的train:val:test的数据集划分
 
-可以修改`view_tensorboard_file.sh`的内容来查看Tensorboard的内容，Tensorboard存储了训练中每500个epoch推理val的图像，Tensorboard的内容，可以在百度网盘中下载
+### train
 
 训练的配置文件在`path\to\Nerf-nerfacto-3Dgauss\nerf-pytorch\configs\colmap.txt`中记录
 
@@ -69,7 +69,7 @@ colmap model_converter --input_path sparse/0 --output_path output --output_type 
 ./view_tensorboard_file.sh
 ```
 
-我们的渲染效果如下
+### 渲染效果
 
 ![nerf](assets/nerf.jpg)
 
