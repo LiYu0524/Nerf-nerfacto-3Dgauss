@@ -6,3 +6,5 @@
 nerf-pytorch/data/*
 nerf-pytorch/logs/*
 *.tfevents.*
+gaussian-splatting/point_cloud/*
+
