@@ -8,7 +8,9 @@
 
 我们使用colmap对视频进行建模
 
-![miku](./assets/miku.gif)
+<p align="center">
+  <img src="./assets/miku.gif" />
+</p>
 
 我们使用`ffmpeg`对视频进行分帧
 
@@ -129,4 +131,6 @@ python metrics.py --model_paths .
 
 ![3d gauss](./assets/3dg.png)
 
-![3dgs](./assets/3dgs.gif)
+<p align="center">
+  <img src="./assets/3dgs.gif" />
+</p>
