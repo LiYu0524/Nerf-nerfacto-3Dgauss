@@ -119,15 +119,23 @@ ns-train nerfacto --data data/miku_process --max-num-iterations 60000 --vis view
 
 ### 渲染结果
 
+#### 渲染val
+
 下图中，左图为ground truth 右图为nerfato渲染结果
 ![nerfacto](./assets/nerfacto.jpg)
 
-渲染轨迹视频
+#### 渲染轨迹视频
+
 ```
  ns-render camera-path --load-config outputs/miku/miku_process/nerfacto/2025-06-16_001554/config.yml --camera-path-filename ../data/miku/miku_process/camera_paths/miku_camera_path.json --output-path renders/miku_process/miku.mp4
 ```
 
+
 相机轨迹视频转gif
+
+<p align="center">
+  <img src="./assets/nerfacto.gif" />
+</p>
 
 
 ## 3D Gaussian Splatting
