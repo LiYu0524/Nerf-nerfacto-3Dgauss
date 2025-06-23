@@ -71,9 +71,30 @@ colmap model_converter --input_path sparse/0 --output_path output --output_type 
 
 ### 渲染效果
 
+#### 渲染val图片
+
 ![nerf](assets/nerf.jpg)
 
+使用nerfacto同样的相机轨迹`miku_camera_path.json`来渲染视频
+
+```
+cd ./nerf-pytorch
+./render_custom.sh
+```
+
+github不能直接展示视频，我们把放在了百度网盘的每一个模型的文件夹中
+
+同时我们使用ffmpeg，把mp4视频转为gif，方便在github上速览
+
+#### nerf渲染相机轨迹
+
+<p align="center">
+  <img src="./assets/miku.gif" />
+</p>
+
 ## **Nerfacto**
+
+### Environment
 
 要使用nerfacto，首先创建虚拟环境
 
@@ -90,14 +111,23 @@ conda activate nerfstudio
 pip install -e .
 ```
 
-开始训练:
+### train
+
 ```
 ns-train nerfacto --data data/miku_process --max-num-iterations 60000 --vis viewer+tensorboard
 ```
 
+### 渲染结果
+
 下图中，左图为ground truth 右图为nerfato渲染结果
 ![nerfacto](./assets/nerfacto.jpg)
 
+渲染轨迹视频
+```
+ ns-render camera-path --load-config outputs/miku/miku_process/nerfacto/2025-06-16_001554/config.yml --camera-path-filename ../data/miku/miku_process/camera_paths/miku_camera_path.json --output-path renders/miku_process/miku.mp4
+```
+
+相机轨迹视频转gif
 
 
 ## 3D Gaussian Splatting
@@ -129,7 +159,10 @@ python metrics.py --model_paths .
 
 ### 实验结果
 
+#### val 图片
 ![3d gauss](./assets/3dg.png)
+
+#### 相机轨迹视频
 
 <p align="center">
   <img src="./assets/3dgs.gif" />
