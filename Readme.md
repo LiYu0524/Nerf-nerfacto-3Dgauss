@@ -55,7 +55,13 @@ colmap model_converter --input_path sparse/0 --output_path output --output_type 
 
 训练的配置文件在`path\to\Nerf-nerfacto-3Dgauss\nerf-pytorch\configs\colmap.txt`中记录
 
+
 使用`train_nerf.sh`来开始训练
+
+
+### Tensorboard
+
+可以修改`view_tensorboard_file.sh`的内容来查看Tensorboard的内容，Tensorboard存储了训练中每500个epoch推理val的图像，Tensorboard的内容，可以在百度网盘中下载
 
 ```
 ./view_tensorboard_file.sh
@@ -122,3 +128,5 @@ python metrics.py --model_paths .
 ### 实验结果
 
 ![3d gauss](./assets/3dg.png)
+
+![3dgs](./assets/3dgs.gif)
